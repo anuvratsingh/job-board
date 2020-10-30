@@ -1,0 +1,11 @@
+{
+  "type": "postgres",
+  "username": "postgres",
+  "password": "postgres",
+  "host": "db",
+  "port": 5432,
+  "database": "job_board_api_pg",
+  "logging": true,
+  "synchronize": true,
+  "entities": ["dist/entities/**/*"]
+}
