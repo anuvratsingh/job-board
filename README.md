@@ -5,20 +5,22 @@ I can see posting from all the sites and its really
 easy to add custom sites someone wanted to track.
 
  ### Ingredients
+ Everything 'should' work in docker
  - Server
-  - Typescript 
-  - Typeorm
-  - Type-GraphQL
-  - Postgres (For storage)
-  - Redis (For caching)
-  - Express
-  - Apollo GraphQL
-  - Argon2 (for password hashing)
+    - Typescript 
+    - Typeorm
+    - Type-GraphQL
+    - Postgres (For storage)
+    - Redis (For caching)
+    - Express
+    - Apollo GraphQL
+    - Argon2 (for password hashing)
 - Web
-  - Next.js 
+    - Next.js 
 - Mobile
-  - React Native
+    - React Native
 - Desktop
- - Electron
+    - Electron
 
 #### Note Haven't decide Web, Mobile and Desktop yet
+#### The Project is a mess right now as I am trying to use docker as dev enviroment 
