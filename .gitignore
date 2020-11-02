@@ -1,2 +1,15 @@
+#  Common
 .vscode
-packages/api/pg-data
+node_modules
+package-lock.json
+yarn.lock
+
+#  Server
+
+/api/dist
+/api/config
+
+# Web
+
+/web/.next
+

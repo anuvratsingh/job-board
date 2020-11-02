@@ -1,0 +1,16 @@
+{
+  "type": "postgres",
+  "username": "postgres",
+  "password": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "logging": true,
+  "synchronize": true,
+  "database": "job_board_api_pg",
+  "entities": ["dist/src/entities/*.js"],
+  "validate": false,
+  "migrations": ["dist/src/migration/*.js"],
+  "cli": {
+    "migrationsDir": "src/migration"
+  }
+}
