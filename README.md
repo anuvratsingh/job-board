@@ -16,6 +16,7 @@ easy to add custom sites someone wanted to track.
   - Express
   - Argon2 (for password hashing)
 - Web
+  - Typescript
   - Next.js
   - Chakra UI
   - GraphQL
